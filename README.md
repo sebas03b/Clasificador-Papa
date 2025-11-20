@@ -23,20 +23,7 @@ Finalmente, se incluyó un módulo para predecir imágenes individuales cargadas
 
 ---
 
-## 📂 Estructura del proyecto
 
-proyecto/
-├── app.py
-├── modelo_papa_lateblight.h5
-├── requirements.txt
-├── app_predict/
-│ ├── imagen_prueba.jpg
-│ └── predict.py
-
-yaml
-Copiar código
-
----
 
 ## ▶️ Cómo correr el proyecto
 
@@ -44,20 +31,25 @@ Copiar código
 ```bash
 git clone <url-del-repo>
 cd <carpeta-del-repo>
+````
 2️⃣ Instalar dependencias
-bash
+````bash
 Copiar código
 pip install -r requirements.txt
-3️⃣ Entrenar el modelo
-Solo si incluís el script de entrenamiento (train.py)
+````
 
-bash
+3️⃣ Entrenar el modelo
+````bash
 Copiar código
 python src/train.py
+````
+
 4️⃣ Hacer predicciones
-bash
+````bash
 Copiar código
 python app_predict/predict.py --image ruta/a/imagen.jpg
+````
+
 📥 Dataset
 El dataset utilizado fue tomado de Kaggle:
 
