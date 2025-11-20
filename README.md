@@ -50,7 +50,11 @@ Copiar código
 python app_predict/predict.py --image ruta/a/imagen.jpg
 ````
 
-📥 Dataset
+
+---
+
+## 📥 Dataset
+
 El dataset utilizado fue tomado de Kaggle:
 
 Potato Leaf Disease Dataset – Muhammad Ardi Putra
